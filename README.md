@@ -48,7 +48,7 @@ This project aims to understand Uber's pricing strategy to help a cab service st
 
 ## Contributors
 
-- Albert
-- Twinkle
-- Sarthak
-- Gaurav 
+- Albert Nguyen
+- Twinkle Panda
+- Sarthak Shivnani
+- Gaurav Shukla
