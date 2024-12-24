@@ -33,15 +33,6 @@ This project aims to understand Uber's pricing strategy to help a cab service st
 5. Boosting (XGBoost / GBM)
 6. BART (Bayesian Additive Regression Trees)
 
-## Model Comparison
-
-| Model | Training RMSE | Test RMSE | Strengths | Weaknesses |
-|-------|---------------|-----------|-----------|------------|
-| Linear Regression / Best Subset | 4.722069 | 4.725299 | Captures categorical variable effects better | High error value, MSE doesn't reduce with multiple variables |
-| Single Regression Tree | - | - | - | Overfitting, predictions not much better than linear |
-| Random Forest/Bagging | 4.276331 | 4.436574 | Low RMSE, better for complex relationships | Overfitting, computationally intensive |
-| Boosting (XGBoost / GBM) | 3.920847 | 4.374432 | Regularization reduces overfitting, parallel processing, best RMSE | Harder to interpret |
-
 ## Key Findings
 
 - The distance driven by the Uber is the most important predictor of price
@@ -54,16 +45,6 @@ This project aims to understand Uber's pricing strategy to help a cab service st
 - Increase the number of data points
 - Obtain distributed data points from multiple states
 - Consider SEC classification
-
-## Usage
-
-1. Clone the repository
-2. Install required dependencies
-3. Run the Jupyter notebooks in the following order:
-   - Data_Preprocessing.ipynb
-   - Feature_Engineering.ipynb
-   - Model_Implementation.ipynb
-   - Model_Comparison.ipynb
 
 ## Contributors
 
